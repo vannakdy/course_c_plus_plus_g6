@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        ".js": "javascript",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "__node_handle": "cpp",
+        "ios": "cpp",
+        "iosfwd": "cpp",
+        "iomanip": "cpp"
+    }
+}
