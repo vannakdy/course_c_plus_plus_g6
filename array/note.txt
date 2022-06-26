@@ -1,0 +1,14 @@
+
+
+Array C++;
+    int x = 10;
+
+    int y[10]; //array
+    string name[100]; //100 size array
+    y : [0,1,2,...,9]
+
+    access element of array 
+        cout << y[0] << endl;
+        cout << y[5] << endl;
+    sytax :
+        type arr_name[size_off_array];

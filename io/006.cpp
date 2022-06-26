@@ -28,7 +28,7 @@ int main(){
     cout << "Name : " << name << endl;
     cout << "Qty : " << qty << endl;
     cout << "Price : " << price << endl;
-    cout << setprecision(2); cout << fixed;
+    cout << setprecision(2); cout << fixed; // format .2
     cout << "Total Price : " << total_price << "$" << endl;
 
     cout << "____________ Product information style row ___________" << endl;

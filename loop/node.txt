@@ -1,0 +1,24 @@
+
+Loop statement in c++
+
+-for
+    for(initailize ; condition ; step){
+        // code
+    }
+    ex:
+        for(int i = 1 ; i <= 1000 ; i++){
+            //// statement
+        }
+-while 
+    initailize;
+    while(condition){
+        // statement
+        step;
+    }
+-do while 
+    initailize;
+    do{
+        // statement
+        step;
+    }while(condition);
+

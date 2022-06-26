@@ -1,0 +1,39 @@
+
+
+* int name[5];
+1. asign emlement
+2. output index 2 , 3
+3. output all element in array name using 
+    loop 
+        1. for
+        2. while 
+        3. do while
+
+
+* Input n staff
+    id name gender salary
+    - input n staff 
+    - output n staff
+
+* Input student
+    id name gender average 
+    - input n student
+    - find grade
+         average (90-100) : A
+         ....
+    - output n student
+
+
+
+* Product Array 
+    id name category price qty
+        - input n product 
+        - find total_amount
+        - output n product
+    output 
+
+    101 Coca Drink 1 10.00$ 10.00$
+    102 Dell 2002 Computer 10 600.00$ 6000.00$
+
+    total : 11 PC | 6010$
+ 
