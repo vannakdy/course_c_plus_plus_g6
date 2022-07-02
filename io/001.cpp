@@ -20,6 +20,5 @@ int main(){
     cout << "Value a / b = " << (a / b) << endl;
     cout << "Value a % b = " << (a % b) << endl;
     cout << "Value a + b + 1000 = " << (a + b + 1000) << endl;
-
     return 0;
 }
