@@ -3,9 +3,9 @@ using namespace std;
 int main(){
     system("clear");
     int operation;
-    int id[100], n = 0, i , idSearch , isSearch;
-    string name[100], gender[100] , nameSearch ,textYesNo;
-    double salary[100];
+    int id[100], n = 0, i , idSearch , isSearch , intTmp;
+    string name[100], gender[100] , nameSearch ,textYesNo , stringTmp;
+    double salary[100] , salaryTmp;
     
     do{
         cout << "\n1. Input staff" << endl;
@@ -14,7 +14,8 @@ int main(){
         cout << "4. Search staff by name" << endl;
         cout << "5. Update staff " << endl;
         cout << "6. Delete staff " << endl;
-        cout << "7. Exit" << endl;
+        cout << "7. Sort staff salary DESC" << endl;
+        cout << "8. Exit" << endl;
         cout << "Input your choice: "; cin >> operation; 
         switch(operation){
             case  1: 
@@ -114,7 +115,7 @@ int main(){
                         cout << "Are you sure to delete this staff ? (yes/no): "; cin >> textYesNo;
                         if(textYesNo == "yes"){
                             // process code delete
-                            //(0) [101,102,103,104,105 ......null ] (1000) 
+                            //(0) [101,102,103,104,105 .....1000.1000 ] (1000) 
                             // i = 2
                             for(int j = i ; j < n ; j++){
                                 id[j] = id[j+1];
@@ -132,9 +133,34 @@ int main(){
                     cout << ".....Id not found in list. Could not remove. Please try again ......" << endl;
                 }
             break;
-            case 7: exit(0); break;
+            case 7:
+                for(i = 0 ; i < n ;i++){
+                    for(int j = i + 1 ; j < n ; j++){
+                        if(salary[i] < salary[j]){
+
+                            intTmp = id[i];
+                            id[i] = id[j];
+                            id[j] = intTmp;
+
+                            stringTmp = name[i];
+                            name[i] = name[j];
+                            name[j] = stringTmp;
+
+                            stringTmp = gender[i];
+                            gender[i] = gender[j];
+                            gender[j] = stringTmp;
+
+                            salaryTmp = salary[i];
+                            salary[i] = salary[j];
+                            salary[j] = salaryTmp;
+                        }
+                    }
+                }
+                cout << ">>>>>>> Sort DESC Success <<<<<<<" << endl;
+                break;
+            case 8: exit(0); break;
 
         }
-    }while(operation != 7);
+    }while(operation != 8);
     return 0;
 }
