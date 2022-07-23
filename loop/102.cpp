@@ -33,9 +33,5 @@ int main(){
         cout << i  << "\t";
         i++;
     }while(i < 1); // 1 > 1
-    
-    
-    
-    
     return 0;
 }

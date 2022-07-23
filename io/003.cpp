@@ -1,11 +1,4 @@
 
-// Staff 
-//      id 
-//      name 
-//      gender 
-//      position 
-//      salary
-
 #include<iostream>
 using namespace std;
 

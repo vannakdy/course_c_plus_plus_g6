@@ -1,13 +1,11 @@
 #include<iostream>
 using namespace std;
-
 int main(){
     system("clear");
     // Person // id name gender age
     int id;
     string name, gender;
     int age;
-    
     cout << "Input person id : "; cin >> id;
     cout << "Input person name : "; cin >> name;
     cout << "Input person gender : "; cin >> gender;

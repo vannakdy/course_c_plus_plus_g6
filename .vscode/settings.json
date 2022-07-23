@@ -6,6 +6,10 @@
         "__node_handle": "cpp",
         "ios": "cpp",
         "iosfwd": "cpp",
-        "iomanip": "cpp"
+        "iomanip": "cpp",
+        "istream": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp"
     }
 }
