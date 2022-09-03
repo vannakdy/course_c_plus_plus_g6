@@ -272,7 +272,7 @@
             cout << "5. Delete Employee " << endl;
             cout << "6. Update Employee " << endl;
             cout << "7. Exit Program" << endl;
-            cout << "Input Choice (1-4) : "; cin >> option;
+            cout << "Input Choice (1-7) : "; cin >> option;
             switch(option){
                 case 1 :
                     objE[n].input();
